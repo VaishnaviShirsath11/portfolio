@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Vaishnavi Shirsath </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Vaishnavi Shirsath </div>
+        <div class="hamburger-menu">  
+            <div class="hamburger-icon" onclick="toggleMenu()"> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./requirements/profile-pic.jpg" alt="Vaishnavi Shirsath profile picture" />
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Vaishnavi Shirsath</h1>
+            <p class="section__text__p2">Bachelor of Science(Hons), Computer Science and Mathematics, Krea University</p> 
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./requirements/Vaishnavi_Resume (2).pdf')"
+              >
+                Download Resume
+              </button>
+              <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+              <img
+                src="./requirements/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/vaishnavi-shirsath-67a2b4259/'"
+              />
+              <img
+                src="./requirements/github.png"
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/VaishnaviShirsath11'"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="about">
+          <h1 class="title">About Me</h1>
+          <div class="section-container">
+            <div class="section__pic-container">
+              <img
+                src="./requirements/about-pic.jpg"
+                alt="Profile picture"
+                class="about-pic"
+              />
+            </div>
+            <div class="about-details-container">
+              <div class="text-container">
+                <p>
+                  Hello! I am Vaishnavi, a recent graduate with a Bachelor’s degree in Computer Science and a minor 
+                  in Mathematics from Krea University. Exploring technology and math has been an exciting adventure, 
+                  and I’m excited to share my passion for the intersection of these fields. 
+                  
+                </p>
+                <p>  
+                  My academic background has given me a strong grasp of both the theoretical and practical sides of 
+                  computer science and mathematics. Whether it’s diving into complex algorithms and machine learning or 
+                  working through intricate mathematical proofs, I’ve built a solid analytical mindset and a genuine passion 
+                  for problem-solving.
+                  </p>
+                  <p>
+
+                  Recently, I’ve been having fun with creating engaging and functional web applications. 
+                  I particularly enjoy the process of creating robust, scalable back-end systems.
+                  In addition to my technical skills, I pride myself on being a quick learner and a proactive problem solver.  My 
+                  skill set spans across machine 
+                  learning, object-oriented programming, artificial intelligence, research and web development, with a 
+                  particular interest 
+                  in how these areas intersect and complement each other. I’m always eager to take on new challenges, 
+                  learn from others, and contribute to innovative projects.
+                  </p>
+                  <p>
+                  Thank you for visiting my site. I’m excited to connect. Feel free to reach out—I’d love to chat and 
+                  collaborate on exciting projects!
+                  
+
+
+
+ 
+                  
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./requirements/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+          />
+        </section>
+        
+        <section id="projects">
+          <h1 class="title">Projects</h1>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./requirements/project-1.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Bionic Reading Convertor</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/VaishnaviShirsath11/Bionic_Reading_Convertor'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://bionicreadingconvertor.netlify.app/'"
+                  >
+                   Live Demo
+                </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./requirements/project-2.jpg"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">EPL Win Prediction</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/VaishnaviShirsath11/EPL_Win_Prediction'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./requirements/project-3.jpg"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Matching Algorithms</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/VaishnaviShirsath11/Capstone'"
+                  >
+                    Github
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./requirements/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+          />
+        </section>
+        <section id="contact">
+          
+          <h1 class="title">Connect with Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="./requirements/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+              <p><a href="mailto:vaishnavirshirsath@gmail.com">vaishnavirshirsath@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="./requirements/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.linkedin.com/in/vaishnavi-shirsath-67a2b4259/">Vaishnavi Shirsath</a></p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
